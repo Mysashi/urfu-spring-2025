@@ -28,6 +28,6 @@ public abstract String[] scanBasePackages - позволяет передать 
 
 @AliasFor(annotation=org.springframework.context.annotation.ComponentScan.class,
           attribute="basePackageClasses")
-public abstract Class<?>[] scanBasePackageClasses - выполняет ту же функцию как и scanBasePackages, только вместо пакетов передаются классы, которые нужно просканировать.
+public abstract Class<?>[] scanBasePackageClasses - выполняет ту же функцию как и scanBasePackages, передаются классы, пакеты которых нужно просканировать.
 
 
